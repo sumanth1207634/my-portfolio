@@ -83,6 +83,7 @@ transform: uppercase;
 .cols
 {
   width: 70%;
+  
 }
 .topline
 {
@@ -151,6 +152,7 @@ button:hover
   position: relative;
   width: 100%;
   height:100%;
+  margin-left: 75px;
 }
 .imgbox img
 {
@@ -199,6 +201,7 @@ button:hover
       display: flex;
       flex-wrap: wrap;
       margin-left: -50px;
+     
       margin-top: -440px;
       
 }
@@ -229,6 +232,7 @@ button:hover
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-right: 50;
 }
 
 .article-container {
@@ -266,6 +270,7 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+
 }
 
 .project-title {
@@ -296,6 +301,14 @@ article .icon {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin-right: -10px;
+  
+}
+.details-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition:all 0.3s ease ;
+  /* Adjust the value as needed */
 }
 
 .experience-details-container :hover {
@@ -323,6 +336,7 @@ article .icon {
   margin-top: 2rem;
 }
 
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -349,15 +363,16 @@ article .icon {
 {
   margin-top: 68px;
   margin-bottom: 80px;
-  margin-left: -40px;
+  margin-left: 10px;
   font-size: 68px;
 }
 .project
 {
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: -20px;
+  margin-left: 50px;
   padding: 20px 0;
+
   width: 92%;
   height: 10%;
   background-color: rgb(213, 233, 226);
